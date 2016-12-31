@@ -1,0 +1,147 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.navbar {
+	background: #D8D8D8;
+	height:50px;
+	text-align:right;
+	position: relative;
+	border-bottom:.5px solid #BABABA;
+}
+
+p.branding {
+	text-align: left;
+	margin-left:10px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height:50px;
+	position: absolute;
+	left:10px;
+}
+
+li.navlinks {
+	display: inline-block;
+	font-size: 18px;
+	margin-right:20px;
+	line-height:50px;
+}
+a.brand {
+	color:black;
+}
+a {
+	text-decoration: none;
+	color:purple;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+form input[type="text"] {
+height:25px;
+width:500px;
+font-size: 16px;
+
+
+}
+
+input.submit-button{
+
+  height:31px;
+  width:40px;
+  background:url(images/magnifying-glass.png);
+  background-size: 30px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left:5px;
+  background-color: transparent;
+  border: 0;
+  border-width:1px;
+  border-color:#D8D8D8;
+  border-style: solid;
+  border-radius: 2px;
+
+
+}
+
+div.searchbar {
+	margin-top:75px;
+	margin-left:100px;
+}
+div.search-results {
+	margin-left: 100px;
+	margin-top:25px;
+
+}
+.results {
+	border: 1px solid #D8D8D8;
+	padding:10px;
+	margin-right:-5px;
+}
+span a {
+	color:black;
+}
+div.searchbar-results {
+margin-top:50px;
+margin-left:100px;
+}
+
+.tech-manager , .frontend , .python{
+	margin-bottom:20px;
+}
+
+span.date , span.location {
+	color: #BABABA;
+
+}
+a.job {
+	color:blue;
+	font-weight:bold;
+}
